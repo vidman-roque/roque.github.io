@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M.Sc. Romel Percy Melgarejo Bolivar | Perfil Profesional Ampliado</title>
+    <title>M.Sc. Romel Percy Melgarejo Bolivar | Perfil Profesional</title>
     <style>
         :root {
             --primary: #1e3a8a;
@@ -26,43 +26,16 @@
         header {
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: var(--white);
-            padding: 3.5rem 1rem 3rem 1rem;
+            padding: 3rem 1rem;
             text-align: center;
-            position: relative;
         }
-        .header-content {
-            max-width: 900px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 1.5rem;
-        }
-        @media (min-width: 600px) {
-            .header-content {
-                flex-direction: row;
-                text-align: left;
-                justify-content: center;
-            }
-        }
-        .profile-photo {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            border: 4px solid var(--white);
-            object-fit: cover;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-            background-color: #e5e7eb;
-        }
-        .header-text h1 {
+        header h1 {
             font-size: 2.2rem;
             margin-bottom: 0.5rem;
-            font-weight: 700;
-            letter-spacing: -0.025em;
         }
-        .header-text p {
-            font-size: 1.15rem;
-            opacity: 0.95;
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
         }
         .container {
             max-width: 900px;
@@ -80,17 +53,15 @@
             color: var(--primary);
             border-bottom: 2px solid var(--secondary);
             padding-bottom: 0.3rem;
-            margin-bottom: 1.2rem;
+            margin-bottom: 1rem;
             font-size: 1.4rem;
-            display: flex;
-            align-items: center;
         }
         ul {
             list-style-type: none;
         }
         li {
-            margin-bottom: 1rem;
-            padding-left: 1.4rem;
+            margin-bottom: 0.8rem;
+            padding-left: 1.2rem;
             position: relative;
         }
         li::before {
@@ -99,11 +70,10 @@
             left: 0;
             color: var(--secondary);
             font-weight: bold;
-            font-size: 1.1rem;
         }
         .badge {
-            background-color: #e0f2fe;
-            color: #0369a1;
+            background-color: var(--light);
+            color: var(--primary);
             padding: 0.2rem 0.6rem;
             border-radius: 4px;
             font-size: 0.85rem;
@@ -115,60 +85,26 @@
             font-weight: bold;
             color: var(--dark);
         }
-        .pub-authors {
-            font-size: 0.9rem;
-            color: #4b5563;
-            font-style: italic;
-        }
-        .pub-meta {
-            font-size: 0.85rem;
-            color: #6b7280;
-            margin-top: 0.1rem;
-        }
         footer {
             text-align: center;
-            padding: 2.5rem;
+            padding: 2rem;
             font-size: 0.9rem;
             color: #6b7280;
-            border-top: 1px solid #e5e7eb;
-        }
-        .links-investigador {
-            margin-top: 0.8rem;
-        }
-        .links-investigador a {
-            color: var(--white);
-            text-decoration: underline;
-            margin: 0 0.5rem;
-            font-size: 0.9rem;
-            opacity: 0.85;
-        }
-        .links-investigador a:hover {
-            opacity: 1;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="header-content">
-            <!-- Foto de Investigador enlazada directamente desde el repositorio oficial CTI Vitae del CONCYTEC -->
-            <img src="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=67043" alt="M.Sc. Romel Percy Melgarejo Bolivar" class="profile-photo">
-            <div class="header-text">
-                <h1>M.Sc. Romel Percy Melgarejo Bolivar</h1>
-                <p>Docente Universitario | Especialista en TI, Ciencia de Datos e Ingeniería Estadística e Informática</p>
-                <div class="links-investigador">
-                    <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=67043" target="_blank">Ficha Concytec</a> | 
-                    <a href="https://scholar.google.com/citations?user=G5veeOIAAAAJ" target="_blank">Google Académico</a>
-                </div>
-            </div>
-        </div>
+        <h1>M.Sc. Romel Percy Melgarejo Bolivar</h1>
+        <p>Docente Universitario | Especialista en TI, Ciencia de Datos e Ingeniería de Software</p>
     </header>
 
     <div class="container">
         
         <section id="sobre-mi">
             <h2>Resumen Profesional</h2>
-            <p>Magíster Scientiae en Informática con mención en Gerencia de Tecnologías de Información y Comunicaciones por la Universidad Nacional del Altiplano. Profesional especializado en Ciencia de Datos, redes telemáticas, analítica probabilística y desarrollo avanzado de software. Cuenta con un destacado historial de registro de propiedad intelectual ante INDECOPI, liderazgo gremial y publicaciones científicas indexadas globalmente.</p>
+            <p>Magíster Scientiae en Informática con mención en Gerencia de Tecnologías de Información y Comunicaciones por la Universidad Nacional del Altiplano. Profesional especializado en Ciencia de Datos, modelado predictivo, desarrollo front-end (GUI) y redes telemáticas, con registro de patentes de propiedad intelectual ante INDECOPI.</p>
         </section>
 
         <section id="educacion">
@@ -183,8 +119,8 @@
                     Título Profesional — Universidad Nacional del Altiplano
                 </li>
                 <li>
-                    <strong>Estudios de Especialización Tecnológica (En curso)</strong><br>
-                    Mecatrónica Automotriz — Instituto Superior Tecnológico José Antonio Encinas (Puno)
+                    <strong>Estudios de Idiomas</strong><br>
+                    Centro de Idiomas CELEN
                 </li>
             </ul>
         </section>
@@ -193,7 +129,7 @@
             <h2>Experiencia Destacada</h2>
             <ul>
                 <li>
-                    <strong>Docente Universitario e Investigador</strong> — Universidad Nacional del Altiplano Puno<br>
+                    <strong>Docente Universitario</strong> — Universidad Nacional del Altiplano Puno<br>
                     <span class="badge">2020 - Actualidad</span>
                 </li>
                 <li>
@@ -201,42 +137,91 @@
                     <span class="badge">2022 - Actualidad</span>
                 </li>
                 <li>
-                    <strong>Docente Auxiliar Ordinario</strong> — Universidad Nacional de Moquegua<br>
-                    <span class="badge">2015</span>
+                    <strong>Docente Auxiliar Ordinario</strong> — Universidad Nacional de Moquegua
+                </li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas y Áreas de Interés</h2>
+            <ul>
+                <li>
+                    <strong>Ciencia de Datos y Estadística:</strong> Modelado predictivo, análisis de regresión, descomposición de series de tiempo y cadenas de Markov.
                 </li>
                 <li>
-                    <strong>Instructor Técnico</strong> — Instituto de Informática de la UNA Puno<br>
-                    <span class="badge">2016</span>
+                    <strong>Desarrollo de Software:</strong> Programación estructurada y orientada a objetos en C++, Python y PHP.
+                </li>
+                <li>
+                    <strong>Diseño Front-end e Interfaces Gráficas:</strong> Creación de entornos visuales profesionales y amigables utilizando Tkinter (Python) y tecnologías web (HTML/CSS/JS).
+                </li>
+            </ul>
+        </section>
+
+        <section id="proyectos-desarrollo">
+            <h2>Proyectos de Desarrollo y Análisis</h2>
+            <ul>
+                <li>
+                    <span class="project-title">Sistema de Reconocimiento Facial</span> — Implementación analítica utilizando algoritmos EigenFace y FisherFace.
+                </li>
+                <li>
+                    <span class="project-title">Entrenador de Código Morse</span> — Aplicación web interactiva basada en lógica de árboles binarios con animaciones visuales de rutas.
+                </li>
+                <li>
+                    <span class="project-title">Comparador de Pantallas Móviles</span> — Herramienta web responsive para identificar dimensiones de dispositivos "gemelos" (tolerancia de 2mm).
+                </li>
+                <li>
+                    <span class="project-title">Simulación de Producción Agrícola</span> — Análisis estadístico de rendimiento de cultivos de papa en Puno, evaluando variables complejas como altitud e incidencia de heladas.
+                </li>
+            </ul>
+        </section>
+
+        <section id="propiedad-intelectual">
+            <h2>Software y Propiedad Intelectual (INDECOPI)</h2>
+            <ul>
+                <li>
+                    <span class="project-title">Criptologin</span> — Módulo integrable de validación de usuarios mediante token USB DNI electrónico (Reg. 31152022).
+                </li>
+                <li>
+                    <span class="project-title">Enviromaker</span> — Software de procesamiento y generación de ambientes tridimensionales (Reg. 31132022).
+                </li>
+                <li>
+                    <span class="project-title">GLPAK GUI</span> — Interfaz gráfica para renderizado 3D en ventanas Win GDI+ (Reg. 31122022).
+                </li>
+                <li>
+                    <span class="project-title">Plataforma de Certificación Electrónica</span> — Derecho de autor por software (Reg. 1382017).
                 </li>
             </ul>
         </section>
 
         <section id="investigacion">
-            <h2>Producción Científica y Publicaciones</h2>
+            <h2>Producción Científica</h2>
             <ul>
                 <li>
-                    <strong>Artículo de Revista Internacional Indexada (2022):</strong><br>
-                    <span class="project-title">"A Lightweight Hybrid Dilated Ghost Model-Based Approach for the Prognosis of Breast Cancer"</span>
-                    <div class="pub-authors">E. Ramirez-Asis, R. P. Melgarejo Bolivar, L. A. Gonzales, S. Chaudhury, R. Kashyap, etc.</div>
-                    <div class="pub-meta">Revista: <em>Computational Intelligence and Neuroscience</em> | DOI: 10.1155/2022/9325452</div>
+                    <strong>Capítulo de Libro (2023):</strong> "Predicción de diabetes en mujeres mediante un modelo probabilístico basado en Redes Bayesianas" en <em>O Cuidado em Saúde Baseado em Evidências</em>.
                 </li>
                 <li>
-                    <strong>Capítulo de Libro Técnico (2023):</strong><br>
-                    <span class="project-title">"Predicción de diabetes en mujeres mediante un modelo probabilístico basado en Redes Bayesianas"</span>
-                    <div class="pub-authors">Romel Percy Melgarejo Bolivar</div>
-                    <div class="pub-meta">Libro: <em>O Cuidado em Saúde Baseado em Evidências</em> | DOI: 10.37885/230412748</div>
+                    <strong>Artículo de Revista (2022):</strong> "Arquitectura pervasiva con tecnologías WebRTC híbridas para el desarrollo de un framework Modelo Vista Controlador de tiempo real".
+                </li>
+            </ul>
+        </section>
+
+        <section id="perfil-personal">
+            <h2>Disciplinas e Intereses Personales</h2>
+            <ul>
+                <li>
+                    <strong>Artes Marciales (Taekwondo):</strong> Practicante disciplinado (Cinturón Verde, nivel 6to Kup), enfocado en la constancia técnica, la preparación física y el perfeccionamiento de Poomsae.
                 </li>
                 <li>
-                    <strong>Artículo de Revista de Posgrado (2022):</strong><br>
-                    <span class="project-title">"Arquitectura pervasiva con tecnologías WebRTC híbridas para el desarrollo de un framework Modelo Vista Controlador de tiempo real"</span>
-                    <div class="pub-authors">Ramiro Pedro Laura Murillo, Romel Percy Melgarejo Bolivar</div>
-                    <div class="pub-meta">Revista: <em>Revista de Investigaciones de la Escuela de Posgrado UNA</em> | DOI: 10.26788/riepg.v9i4.1632</div>
+                    <strong>Precisión y Atención al Detalle:</strong> Fuerte enfoque en la consistencia técnica, tanto en la estandarización de interfaces (GUI) como en la precisión lógica y binaria del código (por ejemplo, asegurando secuencias correctas como `010`).
                 </li>
-                <li>
-                    <strong>Libro / Monografía Académica (2015):</strong><br>
-                    <span class="project-title">"Red Privada Virtual para la Prestación de Servicios Multimedia en el Campus Universitario de la Universidad Nacional del Altiplano"</span>
-                    <div class="pub-meta">Repositorio Institucional UNA Puno | Código de Biblioteca: Facultad de Ingeniería Estadística e Informática</div>
-                </li>
-                <li>
-                    <strong>Artículo de Investigación en Ciencias Sociales (2019):</strong><br>
-                    <span class="project-title">"La comunicación interna en los trabajadores administrativos de la UNA Puno"</span>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Romel Percy Melgarejo Bolivar. Desarrollado y alojado con GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
